@@ -7,6 +7,7 @@ Sistema de Lava-Jato para a disciplina de FBD
 <h2>Projeto em produção</h2>
 
 
+<h1>x---Tecnologias Utilizadas---x</h1>
 <h2>--=Banco de dados=--</h2>
 <p>PostgreSQL<br>
 --=---------------------=--</p>
