@@ -2,8 +2,8 @@
 Sistema de Lava-Jato para a disciplina de FBD
 
 <h1>--=Banco de dados=--</h1>
-PostgreSQL
---------------------
+<p>PostgreSQL<br>
+--------------------</p>
 
 <h1>--=Linguagens Utilizadas=--</h1>
 Python
