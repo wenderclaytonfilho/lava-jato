@@ -1,20 +1,20 @@
 # lava-jato
 Sistema de Lava-Jato para a disciplina de FBD
 
---=Banco de dados=--
+<h1>--=Banco de dados=--</h1>
 PostgreSQL
 --------------------
 
---=Linguagens Utilizadas=--
+<h1>--=Linguagens Utilizadas=--</h1>
 Python
 ---------------------------
 
 
---=Frameworks Utilizados=--
+<h1>--=Frameworks Utilizados=--</h1>
 Flask
 --=---------------------=--
 
 
---=Bibliotecas Utilizadas=--
+<h1>--=Bibliotecas Utilizadas=--</h1>
 Psycopg2
 --=----------------------=--
