@@ -1,4 +1,4 @@
-#Retornar os objetos, não os IDs!
+#Para retornar os Objetos e não os IDs
 from modules.funcionario.dao_funcionario import FuncionarioDao
 from modules.tipoLavagemVeiculo.dao_tipo_lavagem_veiculo import DaoTipoLavagemVeiculo
 from modules.veiculo.dao_veiculo import VeiculoDao

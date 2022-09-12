@@ -87,13 +87,3 @@ def update_cliente(id):
 	return make_response({
 		'id':oldCliente.id
 		})
-
-'''def check_errors(data):
-	errors = []
-	for key in Cliente.FIELDS_TO_VALIDATE:
-		if key not in data.keys():
-			errors.append({'Campo' : key,
-				'message':"Campo obrigatório!"})
-	if errors:
-		return make_response({'errors' : errors},400)
-'''
