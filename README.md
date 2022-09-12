@@ -1,19 +1,25 @@
 # lava-jato
 Sistema de Lava-Jato para a disciplina de FBD
 
-<h1>--=Banco de dados=--</h1>
+<h1>Sobre o projeto</h1>
+<p>Projeto construído para a disciplina de Fundamento de Banco de dados, utilizando da linguagem Python e <abbr ttle = "Vide Tecnologias">outras tecnologias</abbr></p>
+
+<h2>Projeto em produção</h2>
+
+
+<h2>--=Banco de dados=--</h2>
 <p>PostgreSQL<br>
 --=---------------------=--</p>
 
-<h1>--=Linguagens Utilizadas=--</h1>
+<h2>--=Linguagens Utilizadas=--</h2>
 <p>Python<br>
 --=---------------------=--</p>
 
 
-<h1>--=Frameworks Utilizados=--</h1>
+<h2>--=Frameworks Utilizados=--</h2>
 <p>Flask<br>
 --=---------------------=--</p>
 
-<h1>--=Bibliotecas Utilizadas=--</h1>
+<h2>--=Bibliotecas Utilizadas=--</h2>
 <p>Psycopg2<br>
 --=---------------------=--</p>
