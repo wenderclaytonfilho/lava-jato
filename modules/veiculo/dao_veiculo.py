@@ -22,6 +22,7 @@ class VeiculoDao:
             cursor = self.database.cursor()
             cursor.execute(self._INSERT_INTO_,(veiculo.placa,veiculo.tipo_id,veiculo.endereco,veiculo.cliente_id))
             id = cursor.fetchone()[0]
+            self.database.commit()
             cursor.close()
             veiculo.id = id
             return veiculo

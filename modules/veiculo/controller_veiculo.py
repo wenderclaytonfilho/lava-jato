@@ -76,7 +76,7 @@ def delete_veiculo(id):
 
 @app_veiculo.route(f'/{app_name}/update/<int:id>',methods = ['PUT'])
 def update_veiculo(id):
-	data = request.form.to_dict(flat = true)
+	data = request.form.to_dict(flat = True)
 	erros = []
 	for key in Veiculo.FIELDS_TO_VALIDATE:
 		if key not in data.keys():
@@ -95,9 +95,9 @@ def update_veiculo(id):
 	newVeiculo = Veiculo(**data)
 	dao_veiculo.update_veiculo(newVeiculo,oldVeiculo)
 	return make_response({
-			'id':veiculo.id,
-            'placa':veiculo.placa,
-            'tipo_id':veiculo.tipo_id,
-            'endereco':veiculo.endereco,
-            'cliente':veiculo.cliente_id
+			'id':oldVeiculo.id,
+            'placa':newVeiculo.placa,
+            'tipo_id':newVeiculo.tipo_id,
+            'endereco':newVeiculo.endereco,
+            'cliente':newVeiculo.cliente_id
 		})
