@@ -90,13 +90,3 @@ def update_funcionario(id):
 	return make_response({
 		'id':oldFuncionario.id
 		})
-
-'''def check_errors(class_name,data):
-	errors = []
-	for key in class_name.FIELDS_TO_VALIDATE:
-		if key not in data.keys():
-			errors.append({'Campo' : key,
-				'message':"Campo obrigatório!"})
-	if errors:
-		return make_response({'errors' : errors},400)
-'''
