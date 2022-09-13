@@ -42,8 +42,8 @@ create table if not exists lavagem(
 	id SERIAL PRIMARY KEY,
 	veiculo_id INTEGER REFERENCES veiculo(id),
 	funcionario_id INTEGER REFERENCES funcionario(id),
-	data_hora_entrada TIMESTAMP WITHOUT TIME ZONE,
-	data_hora_saida TIMESTAMP WITHOUT TIME ZONE,
+	data_hora_entrada timestamp with time zone,
+	data_hora_saida timestamp with time zone,
 	tipolavagem_id INTEGER REFERENCES tipo_lavagem(id),
 	 codigo varchar(4)
 );
